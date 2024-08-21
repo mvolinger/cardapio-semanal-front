@@ -1,0 +1,59 @@
+.NavigatorMenu {
+    overflow: hidden;
+    background-color: rgba(232, 106, 51, 1);
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+}
+
+.NavigatorMenu .NavLink {
+  float: left;
+  display: block;
+  background-color: transparent;
+  color: rgba(33, 66, 42, 1);
+  text-align: center;
+  padding: 15.5px 16px;
+  text-decoration: none;
+  font-size: large;
+  border: none;
+}
+
+.NavigatorMenu .NavLink:hover {
+  background: #ddd;
+  color: black;
+}
+
+.NavigatorMenu >  h1 {
+  float: right;
+  display: block;
+  color: rgba(33, 66, 42, 1);
+  text-align: center;
+  padding: 14px ;
+  text-decoration: none;
+  font-size: large;
+  margin: auto;
+}
+
+.NavigatorMenu > div {
+  text-align: center;
+  display:block
+}
+
+.NavigatorMenu a {
+  float: left;
+  display: block;
+  color: rgba(33, 66, 42, 1);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+
+.NavigatorMenu a:hover {
+  background: #ddd;
+  color: black;
+}
+
+#FloatRight {
+  float: right;
+}
